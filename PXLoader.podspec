@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PXTutorial'
-  s.version          = '0.1.0'
-  s.summary          = 'PXTutorial provides a configurable JSON file and programmatic interface to define the steps of a tutorial.'
+  s.name             = 'PXLoader’
+  s.version          = ‘1.0.0’
+  s.summary          = 'PXLoader is a component that displays a custom loader’
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-PXTutorial provides a configurable JSON file and programmatic interface to define the steps of a tutorial. Each step contains image, headline and text, additionally it can contain a link and a close button. The link can be used to open an external web link. The close button can be used to redirect users to the next view.
+displays a custom loader.
                        DESC
 
-  s.homepage         = 'https://github.com/MalekEBelkahla/PXTutorial'
+  s.homepage         = 'https://github.com/MalekEBelkahla/PXLoader'
   # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Malek Belkahla" => "malek.belkahla@proxym-it.com" }
-  s.source           = { :git => 'https://github.com/MalekEBelkahla/PXTutorial.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MalekEBelkahla/PXLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -33,10 +33,10 @@ PXTutorial provides a configurable JSON file and programmatic interface to defin
   s.source_files = 'Classes/**/*'
   
   s.resource_bundles = {
-    'PXTutorial' => ['Assets/*.{png,storyboard}']
+    ‘PXLoader’ => ['Assets/*.{png,storyboard}']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.swift’
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
