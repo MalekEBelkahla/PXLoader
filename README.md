@@ -1,7 +1,7 @@
 # PXLoader
 [![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-blue.svg)]()
 
-PXLoader provides a custom loader view with animated custom image animation.
+PXLoader provides a custom loader view with custom image animation.
 
 # Integration
 
